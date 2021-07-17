@@ -30,7 +30,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "Ann": "อ๊ะขอบคุณมากนะ! รู้ได้ไงว่าฉันชอบของแบบนี้ ขอบคุณนะฉันชอบมันมากๆเลย!!/64 72 74 228 196 38 797 230 184/ขอบคุณนะ!! ฉันชอบของขวัญจัง../211 223 222 234 728 730 -79 -81/ฉัน...ว่าฉันไม่ชอบมันนะ @/-81 -21 /@ |ขยะหรอ...../342 330/ขอบคุณสำหรับของขวัญ..../424 426 306 307 308 428 446 78 725 726 768 769 -4 142 721 681 688 689 690 -74 309 310 311/"
+                "Ann": "Ah! Thank you! How did you know I like this much. I thanks a lot!!/64 72 74 228 196 38 797 230 184/Thank you!! I like this gift../211 223 222 234 728 730 -79 -81/I...don't think I like this @/-81 -21 /@ | I... I hate this, sorry...../342 330/Thanks for a gift..../424 426 306 307 308 428 446 78 725 726 768 769 -4 142 721 681 688 689 690 -74 309 310 311/"
             }
         }, {
             "LogName": "Animation Description Data",
@@ -55,16 +55,16 @@
             "Action": "EditData",
             "Target": "Data/EngagementDialogue",
             "Entries": {
-                "Ann0": "ฉันก็กังวลเล็ก น้อยน่ะเกี่ยวกับเรื่องนี้ $7#$b#...ละ ละ ...แล้วคุณหล่ะ$4",
-                "Ann1": "ฉันคิดว่าฉันคงไม่มีความสุขไปกว่านี้แล้ว...$4"
+                "Ann0": "I'm just... little worry about this... $7#$b#...h ...h ...how about you?$4",
+                "Ann1": "I think there's no thing can make me happier than this moment now...$4"
             }
         }, {
             "LogName": "Marriage",
             "Action": "EditData",
             "Target": "strings/StringsFromCSFiles",
             "Entries": {
-                "Utility.cs.5371": "@... แอน... #$b# ในฐานะนายกเทศมนตรี ของเมืองเพลิแกน และฐานะของผู้ถือครอง ตราประทับแห่งการวิวาห์ ของประเทศนี้ ตอนนี้ผมขอประกาศว่า คุณได้กลายเป็นสามีและ... ใช่แล้ว สามีกันอย่างถูกต้อง!$h",
-                "Utility.cs.5377": "@... แอน... #$b# ในฐานะนายกเทศมนตรี ของเมืองเพลิแกน และฐานะของผู้ถือครอง ตราประทับแห่งการวิวาห์ ของประเทศนี้ ตอนนี้ผมขอประกาศว่า คุณได้กลายเป็นภรรยาและสามีกัน อย่างถูกต้อง!$h"
+                "Utility.cs.5371": "@... Ann... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now prounounce you two... are hasband and wife!$h",
+                "Utility.cs.5377": "@... Ann... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now prounounce you two are hasband and wife from now on!$h"
             },
             "When": {
                 "Relationship:Ann": "Engaged, Married"
@@ -116,13 +116,13 @@
             "Action": "EditData",
             "Target": "data/festivals/spring13",
             "Entries": {
-                "Ann": "@ เทศกาลเก็บไข่หล่ะ ดูถ้าเด็กๆจะให้ ความสนใจมากเลยนะ $7"
+                "Ann": "@ Egg Festival. Looks like the kids very interest. $7"
             }
         }, {
             "Action": "EditData",
             "Target": "data/festivals/spring13",
             "Entries": {
-                "Ann": "เย้!! $1#$b#เธอก็รีบๆไปหาสะสิ"
+                "Ann": "Yae!! $1#$b#Let's come to find eggs!"
             },
             "When": {
                 "Spouse:Ann": "True"
@@ -131,13 +131,13 @@
             "Action": "EditData",
             "Target": "data/festivals/spring24",
             "Entries": {
-                "Ann": "ฉันตื่นเต้นมากเลยนะ!! $1"
+                "Ann": "I'm so excited!! $1"
             }
         }, {
             "Action": "EditData",
             "Target": "data/festivals/spring24",
             "Entries": {
-                "Ann": "*ถอนหายใจ* ฤดูใบไม้ผลิใกล้จะหมดแล้ว.. $2"
+                "Ann": "*Sigh* Spring will getting over soon.. $2"
             },
             "When": {
                 "Spouse:Ann": "True"
@@ -146,21 +146,21 @@
             "Action": "EditData",
             "Target": "data/festivals/summer11",
             "Entries": {
-                "Ann": "อดใจรอไม่ไหวแล้ววว #$b# ฉันชอบของกินของที่นี้มากๆเลย #$b# @ นายก็ตั้งตารอละสิ ^ @ เธอก็ตั้งตารอละสิ $1"
-                "Ann_spouse": "แล้วคุณจะใส่อะไรลงไปหรอ @? #$b# อย่าใส่อะไรน่าเกียจลงไปหล่ะฉันรอกินซุปของปีนี้อยู่"
+                "Ann": "I can't waittt!!! #$b# I really like the food here! #$b# @ you also waiting for this! ^ @ you also waiting for this! $1"
+                "Ann_spouse": "What will you put in the soup @? #$b# Don't put awful thing in there, I'm waiting so long for this soup."
             }
         }, {
             "Action": "EditData",
             "Target": "data/festivals/summer28",
             "Entries": {
-                "Ann": "ฉันน่าจะเอากล้องมา ... $2"
-                "Ann_spouse": "ไง!!! ฉันแทบรอไม่ ไหวแล้วที่จะได้ ดูการอพยพ ของแมงกะพรุน $1#$b#ใช่ๆ ตัวสีเขียวน่ะหายาก มากเลยนะ!! $1"
+                "Ann": "I should take a camera here ... $2"
+                "Ann_spouse": "Hey!!! I really can't wait to watching the moonlight jellyfis this night! $1#$b#The shinging green one is extremely rare!! $1"
             }
         }, {
             "Action": "EditData",
             "Target": "data/festivals/summer28",
             "Entries": {
-                "Ann": "คืนนี้..... ฉันว่ามันสวยมากๆเลยว่าไหม?? $4"
+                "Ann": "This night..... I think it's really beautiful. Do you think that? $4"
             },
             "When": {
                 "Spouse:Ann": "True"
@@ -169,14 +169,14 @@
             "Action": "EditData",
             "Target": "data/festivals/fall16",
             "Entries": {
-                "Ann": "ดีสิของขายเยอะจัง!! คุณก็เป็นเกษตรกรนิ $0 #$e#มีของมาขายรึป่าววว$1",
-                "Ann_spouse": "บรรยากาศแบบนี้ดีนะว่าไหม?? #$e#เอาหล่ะต้องมีอะไรให้ฉันทำสักอย่าง !!$1"
+                "Ann": "Looks! There're many things sell here. You are the farmer. $0 #$e#Have something to sell??$1",
+                "Ann_spouse": "It's good atmosphere right?? #$e#Alright, there must be something for me to do!!$1"
             }
         }, {
             "Action": "EditData",
             "Target": "data/festivals/fall16",
             "Entries": {
-                "Ann": "ฉันไม่ชอบตัวตลกนั้นเลย...$2"
+                "Ann": "I don't like that clown...$2"
             },
             "When": {
                 "Spouse:Ann": "True"
@@ -185,20 +185,20 @@
             "Action": "EditData",
             "Target": "data/festivals/fall27",
             "Entries": {
-                "Ann": "อากาศหนาวขึ้นนะ...$2#$e#ไม่ว่าจะเป็นอากาศหรือบรรยากาศ...",
-                "Ann_spouse": "ฉันคิดว่าฉันรู้สึกว่ามีอะไรมาดึงแขนฉัน...$2"
+                "Ann": "It's getting colder...$2#$e#Whether the air or the atmosphere...",
+                "Ann_spouse": "I think I feel something pulling on my arm....$2"
             }
         }, {
             "Action": "EditData",
             "Target": "data/festivals/winter8",
             "Entries": {
-                "Ann": "อากาศหนาวขึ้นนะคุณก็ดูแลตัวเองด้วยหล่ะ ฉันมีแค่ชุดนักศึกษาน่ะ #$b#ฮ่า แต่ฉันชอบอากาศหนาวนะเพราะไทยร้อนมากกก เลย!!!$1"
+                "Ann": "It's getting colder so you take care of yourself. I only have a college uniform. #$b#Haha! But I like this cold because in Thailand Kingdom, IT'S SO HOTTTT!!!$1"
             }
         }, {
             "Action": "EditData",
             "Target": "data/festivals/winter8",
             "Entries": {
-                "Ann": "คุณจะได้ปลาเยอะแค่ไหนนะ!! #$b#ฉันจะเชียร์คุณนะ!!$1"
+                "Ann": "How many fish can you get!! #$b#I'll cheering you, honey!!$1"
             },
             "When": {
                 "Spouse:Ann": "True"
@@ -207,13 +207,13 @@
             "Action": "EditData",
             "Target": "data/festivals/winter25",
             "Entries": {
-                "Ann": "ที่ไทยก็มีเทศกาลแบบนี้ทุกปีเลยหวังว่าฉันจะได้อะไรบ้างนะ..... $2"
+                "Ann": "There are festivals like this in Thailand Kingdom every year, so I hope I get something...... $2"
             }
         }, {
             "Action": "EditData",
             "Target": "data/festivals/winter25",
             "Entries": {
-                "Ann": "คุณเอาของขวัญมาให้ฉัน @?! $h#$b#นี้ต้องเป็นของขวัญที่ดีที่สุดที่ได้เคยได้มาแน่ๆเลย... $l"
+                "Ann": "You brought me a gift @?! $h#$b#This must be the best gift I've ever received.... $l"
             },
             "When": {
                 "Spouse:Ann": "True"
@@ -222,16 +222,16 @@
             "Action": "EditData",
             "Target": "strings/StringsFromMaps",
             "Entries": {
-                "AnnHouse.1": "กาแฟ ของแอน...",
-                "AnnHouse.2": "คอม..ของแอน",
-                "AnnHouse.3": "ใครเป็นคนให้เธอกันนะ",
-                "AnnHouse.4": "ไม่มีอะไรดู...",
-                "AnnHouse.5": "มีแต่หนังสือเต็มไปหมดเลย.."
-                "AnnHouse.6": "เอิ่ม...ไอ้นี่เรียกว่าเมาส์ปากกาสินะ.."
+                "AnnHouse.1": "Ann's coffee...",
+                "AnnHouse.2": "Ann's computer",
+                "AnnHouse.3": "Who gave her?",
+                "AnnHouse.4": "Nothing to watch...",
+                "AnnHouse.5": "There so many books here.."
+                "AnnHouse.6": "Umm... So this thing is called a pen mouse huh..."
             }
         },
 
-        //Events หัวใจ
+        //Events Heart
         { //2 heart event
 
             "LogName": "AnnEvent",
