@@ -225,7 +225,7 @@
                 "AnnHouse.1": "Ann's coffee...",
                 "AnnHouse.2": "Ann's computer",
                 "AnnHouse.3": "Who gave her?",
-                "AnnHouse.4": "Nothing to watch...",
+                "AnnHouse.4": "Nothing to watched...",
                 "AnnHouse.5": "There so many books here.."
                 "AnnHouse.6": "Umm... So this thing is called a pen mouse huh..."
             }
@@ -238,7 +238,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Beach",
             "Entries": {
-                "952551/f Ann 500/t 630 1000/w sunny": "ocean/29 36/farmer 24 30 2 Ann 29 36 2/skippable/move farmer 0 1 1/move farmer 1 0 2/move farmer 0 5 2/speak Ann \"นี้ @ คุณว่าไหมที่นี้สงบดีจัง....#$b#ฉันรู้สึกชอบคนที่นี้มากเลยนะ$0\"/faceDirection farmer 1/speak Ann \"ขอโทษนะที่ฉันพูดอะไรแปลกๆ....#$b#ฉันเดาว่าคุณก็ชอบที่นี้เหมือนกัน$7#$b#เห้อออ....อยากอยู่ที่นี้นานๆจัง!!$1\"/faceDirection farmer 2/speak Ann \"แล้วที่ฟามคุณเป็นยังไงบ้าง??$7#$b#น่าจะต้องดีแน่ๆถ้าอยู่ที่ฟามร์ $7#$b#ปกติฉันก็อยู่ในเมืองมาตลอดเลย.... จนฉันได้มาที่นี้$7\"/pause 1000/speak Ann \"ถึงอย่างน่ะน!! ฉันก็คิดถึงเพื่อนหลายๆ คนที่น่ะนนะ..$1#$b#อาจจะฟังดูเป็น เด็กเห็นแก่ตัวนะ แต่ก็ต้องยอมรับว่า ฉันค่อนข้างเหงา $4#$b#ฉันก็เรียนมาตลอดเลย...$s#$b#ไม่ค่อยได้ทำอะไรพอมา ที่นี้ฉันสนุกสุดๆ#$b#ที่ได้เจอทุกคนในหมู่บ้าน!! $1\"/question fork1 \"พูดอะไรสักอย่าง.. #จะว่าไหมที่ฉันอยากสนิทกับเธอให้มากกว่านี้ #...\"/fork noResponse/pause 1000/speak Ann \"คุณเป็นคนดีจริงๆเลยนะ...$7^เธอนี้เป็นคนดีจริงๆเลยนะ...$7#$b#ถึงว่าเป็นจุดเริ่มต้นที่ดีนะสำหรับฉัน ฮ่าๆ$1\"/emote farmer 60/speak Ann \"ไว้เจอกันใหม่นะ @ ...$7\"/move Ann 0 -1 0/faceDirection farmer 0/move farmer 0 -4 0/speak Ann \"รู้จักกันแล้วนะคุณขาวสวน$7\"/move Ann -4 0 3 true/move Ann 0 -5 3 true/faceDirection farmer 3/pause 500/faceDirection farmer 2/globalFade/viewport -1000 -1000/end",
+                "952551/f Ann 500/t 630 1000/w sunny": "ocean/29 36/farmer 24 30 2 Ann 29 36 2/skippable/move farmer 0 1 1/move farmer 1 0 2/move farmer 0 5 2/speak Ann \"Hey, @ Do you think it's peaceful here....#$b#I really like this place.$0\"/faceDirection farmer 1/speak Ann \"Sorry that I said something weird.....#$b#I guess you like this place too.$7#$b#(Sigh)....Wanna stay here for long!!$1\"/faceDirection farmer 2/speak Ann \"How about your farm??$7#$b#It must be good to be at the farm. $7#$b#I've always been in the city.... until I came here.$7\"/pause 1000/speak Ann \"Even so!! I also miss many friends of mine there...$1#$b#May sound like selfish child, but must admit I'm quite lonely... $4#$b#I've always studied....$s#$b#Rarely do anything, but when I came here I had a lot of fun.#$b#To meet everyone in the village!! $1\"/question fork1 \"Say something.. #i want to be closer to you #...\"/fork noResponse/pause 1000/speak Ann \"คุณเป็นคนดีจริงๆเลยนะ...$7^เธอนี้เป็นคนดีจริงๆเลยนะ...$7#$b#ถึงว่าเป็นจุดเริ่มต้นที่ดีนะสำหรับฉัน ฮ่าๆ$1\"/emote farmer 60/speak Ann \"ไว้เจอกันใหม่นะ @ ...$7\"/move Ann 0 -1 0/faceDirection farmer 0/move farmer 0 -4 0/speak Ann \"รู้จักกันแล้วนะคุณขาวสวน$7\"/move Ann -4 0 3 true/move Ann 0 -5 3 true/faceDirection farmer 3/pause 500/faceDirection farmer 2/globalFade/viewport -1000 -1000/end",
                 "noResponse": "pause 500/emote Ann 28/speak Ann \"พอฉันเดินเล่นนานไปหน่อย ...$7\"/move Ann 0 -1 0/faceDirection farmer 0/speak Ann \"ไว้เจอกันใหม่นะ$0\"/move Ann -4 0 3 true/move Ann 0 -5 3 true/faceDirection farmer 3/globalFade/viewport -1000 -1000/end"
             }
         }, { // 4 heart event
